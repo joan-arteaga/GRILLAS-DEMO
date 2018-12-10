@@ -1,0 +1,108 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+body {
+	color: #fff;
+	background: #252323;
+	-webkit-font-smoothing: antialiased;
+	/*overflow-y: scroll;
+	overflow-x: hidden;*/
+	width: 100vw;
+}
+
+a {
+	outline: none;
+	color: #77d45b;
+	/*no subrayado*/
+	text-decoration: none;
+}
+
+.hidden {
+	position: absolute;
+	/*overflow: hidden;*/
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+
+/* Header */
+
+.header {
+	padding: 2em 1em 4em;
+	text-align: center;
+}
+
+.header h1 {
+	margin: 0.5em 0 0;
+	letter-spacing: -1px;
+	font-size: 3em;
+	line-height: 1;
+	font-weight: normal;
+}
+
+.header h1 span {
+	display: block;
+	padding: 0.5em 0 1em;
+	color: #999;
+	font-weight: normal;
+	font-size: 0.45em;
+	letter-spacing: 0;
+}
+
+.content {
+	padding: 1em 0 3em;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.contentenido-cuento {
+	text-align: center;
+	font-weight: bold;
+	padding: 0 1em;
+}
+
+
+
+
+
+
+
+
+
+/* move ad style */
+
+body #cdawrap {
+	top: 15px;
+	right: auto;
+	left: 15px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+body #cdawrap .carbon-text {
+	color: #EBEBEB;
+}
+
+@media screen and (max-width: 50em) {
+	.codrops-header {
+		padding: 2em 5%;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.codrops-header h1 {
+		font-size: 2.15em;
+	}
+}
